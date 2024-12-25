@@ -1,0 +1,70 @@
+body {
+    background: rgb(211, 188, 188);
+}
+
+aside {
+    float: left;
+    background: rgb(255, 255, 255);
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #be7171;
+    border-right: 5px solid rgb(104, 23, 23);
+}
+
+aside img {
+    width: 120px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+aside h3 {
+    margin-top: 59px;
+    font-size: 28px;
+}
+
+aside ul {list-style: none;}
+aside ul li {
+    color: #b16060;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, asideul a:hover {
+    color: #1e43a7;
+    text-decoration: none;
+    transform: scale(1.10);
+}
+
+main .features {
+    float: left;
+    color: #be2e2e;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400px; margin: 20px auto;}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+form {
+    margin-left: 30%;
+    width: 500px;
+    margin-top: 50px;
+}
